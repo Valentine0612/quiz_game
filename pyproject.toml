@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "quiz_game"
+version = "0.1.0"
+description = ""
+authors = ["Valentin0612 <khvalik06@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.70.0"
+uvicorn = {extras = ["standart"], version = "^0.15.0"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+autopep8 = "^1.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
